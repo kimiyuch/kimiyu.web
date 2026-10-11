@@ -55,6 +55,19 @@
                         </li>
                     @endforeach
                 </ul>
+
+                <div class="mt-8 flex flex-col gap-6 rounded-3xl border-2 border-dashed border-honey-950/10 p-8 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                        <h3 class="font-display text-2xl font-semibold tracking-tight text-honey-950">There’s more to come</h3>
+                        <p class="mt-2 max-w-[56ch] text-base/7 text-pretty text-neutral-600">
+                            More critters are on the way. Have an idea of your own? Let’s build something together.
+                        </p>
+                    </div>
+                    <a href="mailto:{{ $email }}?subject=An%20idea" class="inline-flex shrink-0 items-center gap-x-1.5 self-start text-base/6 font-semibold text-honey-800 hover:text-honey-600 sm:self-center">
+                        Tell us about it
+                        <x-heroicon-m-arrow-right class="size-5 shrink-0 fill-current" />
+                    </a>
+                </div>
             </div>
         </section>
 
