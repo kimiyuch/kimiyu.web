@@ -1,13 +1,14 @@
 # kimiyu.ch: the studio landing page (to build)
 
-Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-11 (artwork decided: the bear; Amor not shown; Laravel app set up).
+Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-11 (artwork decided: the bear; Amor not shown; Laravel app set up; page built).
 
 ## Start here
 
 1. Read this file, then look at `../joey.web` (the model) and `artwork/kimiyu-bear.svg`.
 2. ~~Create a fresh Laravel 13 app in this folder, set it up like `../joey.web`, and push it to `https://github.com/kimiyuch/kimiyu.web.git`.~~ Done 2026-10-11: fonts, Tailwind, heroicons, tests workflow, `deploy.sh` (targets `~/www/kimiyu.ch`, not run yet) and a placeholder `home.blade.php` with plain links.
 3. ~~Serve it in Herd as `https://kimiyu.web.test`.~~ Done (secured).
-4. Build the page with the `/ui` skill, then add a `deploy.sh` and go live on `~/www/kimiyu.ch` (see "The server right now").
+4. ~~Build the page with the `/ui` skill.~~ Done 2026-10-11: hero with the bear on a honey tile, cards for Joey, Bilby and Wallaby, contact, `/legal`, redirects for the old Wallaby paths, no cookies. Palette `honey` in `app.css`; tile and favicons from `scripts/make-icon.mjs`.
+5. Go live on `~/www/kimiyu.ch` (see "The server right now").
 
 ## The goal
 
@@ -54,6 +55,7 @@ Model it on `../joey.web` (and look at `../bilby.web`, `../amor.web`, `../wallab
 
 - `~/www/kimiyu.ch` still holds the **old Wallaby app** (it was called kimiyu), in maintenance mode. Its data was moved to `~/www/wallaby.kimiyu.ch` on 2026-10-11; nothing there is needed any more.
 - `~/www/kimiyu.ch/public/.htaccess` is a temporary **302 redirect to wallaby.kimiyu.ch** (so old links in emails keep working). The old app's `.htaccess` is saved next to it as `.htaccess.before-wallaby-20261011-205053`.
+- **Before the first deploy:** `deploy.sh` never touches the server's `public/.htaccess`, so the temporary 302 would keep redirecting the new site. Replace it with Laravel's `public/.htaccess` (with `Use php-fpm php83` as the first line, or set PHP 8.3 in the Hostpoint panel). The redirects for the old app's paths now live in `routes/web.php`. `deploy.sh` also keeps the server's `storage/`, so the old app's logs and sessions stay there until removed by hand.
 - When the studio page goes live there: replace the folder contents with the new site (the old app can go), and the redirect disappears with it. Consider keeping redirects for the old app's paths (`/login`, `/register`, `/expenses`, `/profile`, `/verify-email`, `/reset-password/*`) to wallaby.kimiyu.ch, since old emails link there.
 - PHP version per site: first line of `public/.htaccess`, e.g. `Use php-fpm php84` (Wallaby needs 8.4; Joey/Bilby/Amor use 8.3).
 - DNS for kimiyu.ch is at Hostpoint; SPF, DKIM and DMARC (`p=quarantine`) are set up.

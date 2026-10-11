@@ -8,4 +8,28 @@
     --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
     --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
     --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+    /* Honey, the studio colour: the bear's tile, with the bear's browns at the dark end. */
+    --color-honey-50: #fdf7ec;
+    --color-honey-100: #fbecd2;
+    --color-honey-200: #f6d8a8;
+    --color-honey-300: #efbf78;
+    --color-honey-400: #e6a454;
+    --color-honey-500: #c9813c;
+    --color-honey-600: #9f5b26;
+    --color-honey-700: #824a22;
+    --color-honey-800: #6b3d20;
+    --color-honey-900: #4c2e24;
+    --color-honey-950: #2b1a12;
+
+    /* Each app's own colour, taken from its website. */
+    --color-gum-50: #f1f8f4;
+    --color-gum-700: #2f6450;
+    --color-gum-950: #10261e;
+    --color-chip-50: #eef7f9;
+    --color-chip-700: #24576a;
+    --color-chip-950: #112832;
+    --color-lilac-50: #f6f3fe;
+    --color-lilac-700: #6243b3;
+    --color-lilac-950: #2a1d4d;
 }
