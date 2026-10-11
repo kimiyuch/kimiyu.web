@@ -41,7 +41,7 @@ Model it on `../joey.web` (and look at `../bilby.web`, `../amor.web`, `../wallab
 - **Fonts:** Inter (self-hosted `resources/fonts/InterVariable.woff2`, weights 400–600, with `cv02 cv03 cv04 cv11`) and Figtree from Bunny for headings (`font-display`), both through `laravel-vite-plugin/fonts` in `vite.config.js` and `@fonts` in the layout. Copy the setup from `../joey.web/vite.config.js`.
 - **Icons:** `blade-ui-kit/blade-heroicons`.
 - **Design guidelines:** build it with the `/ui` skill, like the Wallaby and Joey landing pages.
-- **Studio palette:** to decide, starting from the bear's warm browns and creams (above). The X banner in `../kimiyuch/header.html` blends the sites' light backgrounds (desert ochre, eucalyptus, sky) on `#fbfbf9`, with Figtree headlines in `#13222b`; useful for showing the four apps side by side. (GitHub avatar: `docs/avatar.png`, the bear on its honey tile, 1024×1024, rendered by `scripts/make-icon.mjs`.)
+- **Studio palette:** `honey` in `resources/css/app.css` (decided 2026-10-11), the bear's tile running into its browns. The X banner in `../kimiyuch/header.html` blends the sites' light backgrounds (desert ochre, eucalyptus, sky) on `#fbfbf9`, with Figtree headlines in `#13222b`; useful for showing the four apps side by side. (GitHub avatar: `docs/avatar.png`, the bear on its honey tile, 1024×1024, rendered by `scripts/make-icon.mjs`.)
 - **App icons:** `../kimiyuch/joey.png`, `bilby.png`, `amor.png` (from each `.app` repo's `docs/icon.png`); Wallaby's is `../wallaby.web/docs/icon.png`.
 - **Deploy:** a `deploy.sh` like `../joey.web/deploy.sh` (Hostpoint over SSH, assets built locally and committed).
 
