@@ -2,7 +2,6 @@
 
 /* Only scan the templates; nothing else in the project contains classes. */
 @source '../views';
-@source '../js';
 
 @theme {
     --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;

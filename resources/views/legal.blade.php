@@ -1,6 +1,6 @@
 @php($email = config('kimiyu.email'))
 
-<x-layouts.app title="Legal Notice · kimiyu">
+<x-layouts.app title="Legal notice · kimiyu studio" description="Privacy and contact details for kimiyu.ch, the website of kimiyu studio.">
     <div class="absolute inset-x-0 top-0 -z-10 h-[44rem] bg-linear-to-b from-honey-50 to-white"></div>
 
     <x-site-header />

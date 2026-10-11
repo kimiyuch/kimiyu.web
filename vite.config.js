@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: ['resources/css/app.css'],
             refresh: true,
             fonts: [
                 // InterVariable from rsms.me, cut down to latin and weights 400–600 with

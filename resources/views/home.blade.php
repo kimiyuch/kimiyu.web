@@ -7,9 +7,32 @@
         ['icon' => 'sparkles', 'title' => 'Built mostly with Claude', 'body' => 'Most of the code is written together with Claude, Anthropic’s AI. We plan, review and test every change; Claude does much of the typing.'],
         ['icon' => 'light-bulb', 'title' => 'Ideas are cheap to try', 'body' => 'That makes building an idea quick and inexpensive. So a small app that fixes one everyday annoyance gets made, instead of staying on a list.'],
     ];
+
+    // Structured data for search engines. Built here because Blade would read '@context' as a directive.
+    $organization = [
+        '@context' => 'https://schema.org',
+        '@type' => 'Organization',
+        'name' => 'kimiyu studio',
+        'url' => rtrim(config('app.url'), '/').'/',
+        'logo' => asset('images/kimiyu.svg'),
+        'email' => $email,
+        'sameAs' => [config('kimiyu.github_url')],
+        'owns' => array_map(fn ($app) => [
+            '@type' => 'SoftwareApplication',
+            'name' => $app['name'],
+            'url' => $app['url'],
+            'description' => $app['description'],
+        ], $apps),
+    ];
 @endphp
 
 <x-layouts.app>
+    <x-slot:head>
+        <script type="application/ld+json">
+            {!! json_encode($organization, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
+        </script>
+    </x-slot:head>
+
     <div class="absolute inset-x-0 top-0 -z-10 h-[44rem] bg-linear-to-b from-honey-50 to-white"></div>
 
     <x-site-header />

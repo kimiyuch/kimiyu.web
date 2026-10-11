@@ -35,6 +35,10 @@ npm run build     # if you changed the design; commit public/build
 | `resources/css/app.css` | Theme colors (`honey` for the studio, plus each app's own) and fonts |
 | `routes/web.php` | The pages, and redirects for links to the old Wallaby app that lived here |
 | `artwork/` | The studio mark, the kimiyu bear |
+| `resources/views/og-image.blade.php` | Source of the share image `public/images/og.png`; render it with `scripts/og-image.sh` (needs Herd and Chrome) |
+| `public/sitemap.xml` | The two pages, for search engines; add new pages here |
 | `scripts/make-icon.mjs` | Puts the bear on its honey tile and renders the favicons (`node scripts/make-icon.mjs`) |
+
+Canonical and share URLs are built from `APP_URL`, so it must be `https://kimiyu.ch` on the server.
 
 The site sets no cookies: the session and CSRF middleware are removed in `bootstrap/app.php`, since there are no forms.
