@@ -5,6 +5,7 @@
     </a>
     <nav class="flex items-center gap-x-8">
         <a href="/#apps" class="text-sm/6 font-medium text-neutral-700 hover:text-honey-700 max-sm:hidden">Apps</a>
+        <a href="/#how-we-work" class="text-sm/6 font-medium text-neutral-700 hover:text-honey-700 max-sm:hidden">How we work</a>
         <a href="/#contact" class="text-sm/6 font-medium text-neutral-700 hover:text-honey-700 max-sm:hidden">Contact</a>
         <a href="{{ config('kimiyu.github_url') }}" class="rounded-full px-3 py-1.5 text-sm/6 font-medium text-honey-800 ring-1 ring-honey-950/10 hover:bg-honey-50">GitHub</a>
     </nav>

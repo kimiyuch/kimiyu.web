@@ -1,6 +1,12 @@
 @php
     $apps = config('kimiyu.apps');
     $email = config('kimiyu.email');
+
+    $principles = [
+        ['icon' => 'wrench-screwdriver', 'title' => 'Twenty years of web development', 'body' => 'Behind kimiyu are more than twenty years of building for the web. That experience decides what gets built, how it fits together and when it’s good enough to ship.'],
+        ['icon' => 'sparkles', 'title' => 'Built mostly with Claude', 'body' => 'Most of the code is written together with Claude, Anthropic’s AI. We plan, review and test every change; Claude does much of the typing.'],
+        ['icon' => 'light-bulb', 'title' => 'Ideas are cheap to try', 'body' => 'That makes building an idea quick and inexpensive. So a small app that fixes one everyday annoyance gets made, instead of staying on a list.'],
+    ];
 @endphp
 
 <x-layouts.app>
@@ -10,10 +16,9 @@
 
     <main>
         {{-- Hero --}}
-        <section class="pt-10 pb-24 sm:pt-16 sm:pb-32">
+        <section class="pt-16 pb-24 sm:pt-24 sm:pb-32">
             <div class="mx-auto max-w-6xl px-6 text-center lg:px-8">
-                <img src="{{ asset('images/kimiyu.svg') }}" width="384" height="384" fetchpriority="high" alt="The kimiyu bear: a friendly brown bear face on a honey-coloured tile" class="mx-auto size-32 sm:size-40">
-                <h1 class="mx-auto mt-8 max-w-[20ch] font-display text-5xl font-semibold tracking-tight text-balance text-honey-950 sm:text-7xl">
+                <h1 class="mx-auto max-w-[20ch] font-display text-5xl font-semibold tracking-tight text-balance text-honey-950 sm:text-7xl">
                     Small, calm apps, each with a critter inside
                 </h1>
                 <p class="mx-auto mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600 sm:text-xl/8">
@@ -50,6 +55,31 @@
                         </li>
                     @endforeach
                 </ul>
+            </div>
+        </section>
+
+        {{-- How we work --}}
+        <section id="how-we-work" class="scroll-mt-8 border-t border-neutral-950/5 py-24 sm:py-32">
+            <div class="mx-auto max-w-6xl px-6 lg:px-8">
+                <p class="text-base/7 font-semibold text-honey-600">How we work</p>
+                <h2 class="mt-2 max-w-[30ch] font-display text-4xl font-semibold tracking-tight text-balance text-honey-950 sm:text-5xl">
+                    Two decades of experience, built with Claude
+                </h2>
+                <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
+                    Experience knows what’s worth building. AI makes building it fast. Together they turn a good idea into a finished app in days, not months.
+                </p>
+
+                <dl class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                    @foreach ($principles as $principle)
+                        <div>
+                            <dt class="flex items-center gap-x-3 text-lg/7 font-semibold text-honey-950 sm:text-base/7">
+                                <x-dynamic-component :component="'heroicon-o-'.$principle['icon']" class="size-6 shrink-0 stroke-honey-600" />
+                                {{ $principle['title'] }}
+                            </dt>
+                            <dd class="mt-2 text-base/7 text-pretty text-neutral-600 sm:text-sm/6">{{ $principle['body'] }}</dd>
+                        </div>
+                    @endforeach
+                </dl>
             </div>
         </section>
 
