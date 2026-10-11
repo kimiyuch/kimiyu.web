@@ -30,7 +30,7 @@ const art = `
 const svg = (viewBox, body) =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}">\n  <defs>${defs}\n  </defs>${body}\n</svg>\n`;
 
-// Full-bleed square for the apple-touch-icon (iOS rounds the corners).
+// Full-bleed square for the apple-touch-icon (iOS rounds the corners) and the GitHub avatar (shown as a circle).
 const square = svg("0 0 1024 1024", background + art);
 // Rounded square on transparent with a shadow, on the macOS icon grid like the apps': favicon, page, README.
 const rounded = svg("0 0 1024 1024", `
@@ -49,6 +49,7 @@ const renders = [
   [rounded, "public/images/favicon-96x96.png", 96],
   [rounded, "docs/icon.png", 512],
   [square, "public/apple-touch-icon.png", 180],
+  [square, "docs/avatar.png", 1024],
   [rounded, "storage/app/favicon-32.png", 32],
   [rounded, "storage/app/favicon-48.png", 48],
 ];
