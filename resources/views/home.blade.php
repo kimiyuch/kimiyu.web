@@ -56,7 +56,7 @@
                     @endforeach
                 </ul>
 
-                <div class="mt-8 flex flex-col gap-6 rounded-3xl border-2 border-dashed border-honey-950/10 p-8 sm:flex-row sm:items-center sm:justify-between">
+                <div class="mt-16 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                         <h3 class="font-display text-2xl font-semibold tracking-tight text-honey-950">There’s more to come</h3>
                         <p class="mt-2 max-w-[56ch] text-base/7 text-pretty text-neutral-600">
