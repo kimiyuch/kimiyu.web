@@ -1,7 +1,7 @@
 <header class="mx-auto flex max-w-6xl items-center justify-between gap-x-6 px-6 py-5 lg:px-8">
     <a href="/" aria-label="Homepage" class="flex items-center gap-x-2.5">
         <img src="{{ asset('images/bear.svg') }}" alt="" class="h-7 w-auto">
-        <span class="font-display text-xl font-semibold text-honey-950">kimiyu</span>
+        <span class="font-display text-xl font-semibold text-honey-950">kimiyu <span class="font-medium text-honey-600">studio</span></span>
     </a>
     <nav class="flex items-center gap-x-8">
         <a href="/#apps" class="text-sm/6 font-medium text-neutral-700 hover:text-honey-700 max-sm:hidden">Apps</a>
