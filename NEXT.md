@@ -1,6 +1,6 @@
 # kimiyu.ch: the studio landing page (to build)
 
-Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-11 (artwork decided: the bear; Amor not shown; Laravel app set up; page built).
+Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-11 (artwork decided: the bear; Amor not shown; Laravel app set up; page built; live on kimiyu.ch).
 
 ## Start here
 
@@ -8,7 +8,7 @@ Written 2026-10-11 at the end of the Wallaby session, for whoever opens this fol
 2. ~~Create a fresh Laravel 13 app in this folder, set it up like `../joey.web`, and push it to `https://github.com/kimiyuch/kimiyu.web.git`.~~ Done 2026-10-11: fonts, Tailwind, heroicons, tests workflow, `deploy.sh` (targets `~/www/kimiyu.ch`, not run yet) and a placeholder `home.blade.php` with plain links.
 3. ~~Serve it in Herd as `https://kimiyu.web.test`.~~ Done (secured).
 4. ~~Build the page with the `/ui` skill.~~ Done 2026-10-11: hero with the bear on a honey tile, cards for Joey, Bilby and Wallaby, contact, `/legal`, redirects for the old Wallaby paths, no cookies. Palette `honey` in `app.css`; tile and favicons from `scripts/make-icon.mjs`.
-5. Go live on `~/www/kimiyu.ch` (see "The server right now").
+5. ~~Go live~~ Done 2026-10-11 (commit 56c70e2). Server `.htaccess` replaced (temporary redirect kept as `public/.htaccess.temporary-redirect-20261011`), `.env` switched to file sessions/cache, maintenance mode lifted. Old app backed up as `~/kimiyu.ch-old-wallaby-app-20261011.tar.gz` (+ `.env`). Still on the server from the old app: `database/database.sqlite` and old logs in `storage/`; delete once you're sure nothing is needed. Originally: go live on `~/www/kimiyu.ch` (see "The server right now").
 
 ## The goal
 
