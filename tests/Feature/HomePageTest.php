@@ -13,6 +13,7 @@ class HomePageTest extends TestCase
             ->assertSee('https://joey.kimiyu.ch')
             ->assertSee('https://bilby.kimiyu.ch')
             ->assertSee('https://wallaby.kimiyu.ch')
+            ->assertSee('https://wombat.kimiyu.ch')
             ->assertDontSee('amor.kimiyu.ch');
     }
 

@@ -65,13 +65,13 @@
             <div class="mx-auto max-w-6xl px-6 lg:px-8">
                 <p class="text-base/7 font-semibold text-honey-600">The apps</p>
                 <h2 class="mt-2 max-w-[30ch] font-display text-4xl font-semibold tracking-tight text-balance text-honey-950 sm:text-5xl">
-                    Three critters, three small jobs
+                    Four critters, four small jobs
                 </h2>
                 <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
                     Each app has its own website, with everything you need to get started.
                 </p>
 
-                <ul role="list" class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <ul role="list" class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
                     @foreach ($apps as $app)
                         <li class="flex">
                             <x-app-card :app="$app" class="w-full" />
@@ -103,7 +103,7 @@
                     Experience knows what’s worth building. AI makes building it fast. Together they turn a good idea into a finished app in days, not months.
                 </p>
 
-                <dl class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <dl class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
                     @foreach ($principles as $principle)
                         <div>
                             <dt class="flex items-center gap-x-3 text-lg/7 font-semibold text-honey-950 sm:text-base/7">
@@ -126,7 +126,7 @@
                         Questions, ideas or a bug to report?
                     </h2>
                     <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
-                        Write to us. For Joey, you can also open an issue on GitHub.
+                        Write to us. For Joey and Wombat, you can also open an issue on GitHub.
                     </p>
                 </div>
                 <div class="flex flex-col justify-end gap-4 lg:items-end">

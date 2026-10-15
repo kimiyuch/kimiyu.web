@@ -38,6 +38,16 @@ return [
             'details' => 'Made for two people · Phone and computer',
             'color' => 'lilac',
         ],
+        [
+            'name' => 'Wombat',
+            'url' => 'https://wombat.kimiyu.ch',
+            'icon' => 'images/wombat.webp',
+            'icon_alt' => 'The Wombat app icon: a wombat peeking over a Mac drive',
+            'tagline' => 'Digs up where your disk space went.',
+            'description' => 'A small, native disk space app for your Mac. It shows what fills the disk and helps you clear out caches, build leftovers and old node_modules, without touching anything you didn’t pick.',
+            'details' => 'Free · macOS, Apple Silicon',
+            'color' => 'burrow',
+        ],
     ],
 
 ];

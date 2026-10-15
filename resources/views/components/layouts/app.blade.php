@@ -1,6 +1,6 @@
 @props([
     'title' => 'kimiyu studio: small, calm apps, each with a critter inside',
-    'description' => 'kimiyu studio makes small, calm apps: Joey, a BitTorrent client for the Mac; Bilby, a poker tournament clock; and Wallaby, a shared tab for couples and housemates.',
+    'description' => 'kimiyu studio makes small, calm apps: Joey, a BitTorrent client for the Mac; Bilby, a poker tournament clock; Wallaby, a shared tab for couples and housemates; and Wombat, a disk space app for the Mac.',
 ])
 
 @php
@@ -25,7 +25,7 @@
     <meta property="og:image" content="{{ asset('images/og.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="The kimiyu bear next to the words: Small, calm apps, each with a critter inside. Below, the icons of Joey, Bilby and Wallaby.">
+    <meta property="og:image:alt" content="The kimiyu bear next to the words: Small, calm apps, each with a critter inside. Below, the icons of Joey, Bilby, Wallaby and Wombat.">
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
