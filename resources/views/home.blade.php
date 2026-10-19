@@ -45,7 +45,7 @@
                     Small, calm apps, each with a critter inside
                 </h1>
                 <p class="mx-auto mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600 sm:text-xl/8">
-                    kimiyu is a little studio making apps that do one thing well and then get out of your way. Every one of them has an Australian animal on its icon.
+                    kimiyu is a little studio making apps that do one thing well and then get out of your way. Most of them have an Australian animal on their icon.
                 </p>
                 <div class="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
                     <a href="#apps" class="inline-flex items-center gap-x-2 rounded-full bg-honey-600 py-3 pr-4 pl-5 text-base/6 font-semibold text-white shadow-sm hover:bg-honey-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-honey-600">
@@ -65,7 +65,7 @@
             <div class="mx-auto max-w-6xl px-6 lg:px-8">
                 <p class="text-base/7 font-semibold text-honey-600">The apps</p>
                 <h2 class="mt-2 max-w-[30ch] font-display text-4xl font-semibold tracking-tight text-balance text-honey-950 sm:text-5xl">
-                    Five critters, five small jobs
+                    Six apps, six small jobs
                 </h2>
                 <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
                     Each app has its own website, with everything you need to get started.

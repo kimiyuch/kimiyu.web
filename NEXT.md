@@ -22,6 +22,7 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Wallaby** | Split expenses, not relationships: a running tab for couples and housemates | https://wallaby.kimiyu.ch | `kimiyuch/wallaby.web` |
 | **Wombat** | A small, native disk space app for macOS: shows what fills the disk and helps clear it (added to the page 2026-10-15, colour `burrow`) | https://wombat.kimiyu.ch | `kimiyuch/wombat.app` + `kimiyuch/wombat.web` |
 | **Croc** | A small, native video converter for macOS: chews big MOV and MP4 files and animated GIFs down to small, fast-starting web videos (added to the page 2026-10-19, colour `billabong`) | https://croc.kimiyu.ch | `kimiyuch/croc.app` + `kimiyuch/croc.web` |
+| **Usverchauft** | Fan-to-fan ticket passing for FC Winterthur home games, no payments (formerly «Got a ticket?» at gotaticket.kimiyu.ch). No critter: its icon is the red ticket with a heart, so the hero now says *most* apps have an animal (added to the page 2026-10-19, colour `terrace`) | https://usverchauft.ch | `kimiyuch/gotaticket` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

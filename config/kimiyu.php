@@ -58,6 +58,16 @@ return [
             'details' => 'Free and open source · macOS, Apple Silicon',
             'color' => 'billabong',
         ],
+        [
+            'name' => 'Usverchauft',
+            'url' => 'https://usverchauft.ch',
+            'icon' => 'images/usverchauft.webp',
+            'icon_alt' => 'The Usverchauft app icon: a white ticket with a red heart on a red tile',
+            'tagline' => 'Your seat, passed on to a fellow fan.',
+            'description' => 'Ticket passing for FC Winterthur home games. Can’t make it? Pass your season or single ticket on to a fan who’s looking for one, for free or at face value. Fan to fan, no payments on the platform.',
+            'details' => 'Free, in Swiss German · Phone and computer',
+            'color' => 'terrace',
+        ],
     ],
 
 ];
