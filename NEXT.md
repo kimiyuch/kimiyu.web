@@ -21,6 +21,7 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Amor** | Photograph the duty roster, and every shift goes into your calendar | https://amor.kimiyu.ch (behind a password, a personal tool; **not shown on the page**, decided 2026-10-11) | `kimiyuch/amor.web` |
 | **Wallaby** | Split expenses, not relationships: a running tab for couples and housemates | https://wallaby.kimiyu.ch | `kimiyuch/wallaby.web` |
 | **Wombat** | A small, native disk space app for macOS: shows what fills the disk and helps clear it (added to the page 2026-10-15, colour `burrow`) | https://wombat.kimiyu.ch | `kimiyuch/wombat.app` + `kimiyuch/wombat.web` |
+| **Croc** | A small, native video converter for macOS: chews big MOV and MP4 files down to small, fast-starting web videos (added to the page 2026-10-19, colour `billabong`) | https://croc.kimiyu.ch | `kimiyuch/croc.app` + `kimiyuch/croc.web` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

@@ -3,7 +3,8 @@
 # Needs the site running locally in Herd and up-to-date assets (npm run build).
 set -euo pipefail
 cd "$(dirname "$0")/.."
-URL=${OG_URL:-https://kimiyu.web.test/og-image}
+# ?herd=preview keeps Herd's dev widget out of the screenshot.
+URL=${OG_URL:-https://kimiyu.web.test/og-image?herd=preview}
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 "$CHROME" --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 \
   --window-size=1200,630 --virtual-time-budget=5000 \

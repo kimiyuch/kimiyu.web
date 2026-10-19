@@ -77,18 +77,17 @@
                             <x-app-card :app="$app" class="w-full" />
                         </li>
                     @endforeach
+                    <li class="flex flex-col justify-center py-8 md:p-8">
+                        <h3 class="font-display text-2xl font-semibold tracking-tight text-honey-950">There’s more to come</h3>
+                        <p class="mt-2 max-w-[56ch] text-base/7 text-pretty text-neutral-600">
+                            More critters are on the way. Have an idea of your own? Let’s build something together.
+                        </p>
+                        <a href="mailto:{{ $email }}?subject=An%20idea" class="mt-6 inline-flex items-center gap-x-1.5 self-start text-base/6 font-semibold text-honey-800 hover:text-honey-600">
+                            Tell us about it
+                            <x-heroicon-m-arrow-right class="size-5 shrink-0 fill-current" />
+                        </a>
+                    </li>
                 </ul>
-
-                <div class="mt-16">
-                    <h3 class="font-display text-2xl font-semibold tracking-tight text-honey-950">There’s more to come</h3>
-                    <p class="mt-2 max-w-[56ch] text-base/7 text-pretty text-neutral-600">
-                        More critters are on the way. Have an idea of your own? Let’s build something together.
-                    </p>
-                    <a href="mailto:{{ $email }}?subject=An%20idea" class="mt-6 inline-flex items-center gap-x-1.5 text-base/6 font-semibold text-honey-800 hover:text-honey-600">
-                        Tell us about it
-                        <x-heroicon-m-arrow-right class="size-5 shrink-0 fill-current" />
-                    </a>
-                </div>
             </div>
         </section>
 

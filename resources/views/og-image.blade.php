@@ -15,7 +15,7 @@
         <p class="mt-8 max-w-[22ch] font-display text-6xl font-semibold tracking-tight text-balance text-honey-950">
             Small, calm apps, each with a critter inside.
         </p>
-        <ul role="list" class="mt-14 flex gap-x-12">
+        <ul role="list" class="mt-14 flex gap-x-10">
             @foreach (config('kimiyu.apps') as $app)
                 <li class="flex items-center gap-x-4">
                     <img src="{{ asset($app['icon']) }}" alt="" class="-m-2 size-24">
