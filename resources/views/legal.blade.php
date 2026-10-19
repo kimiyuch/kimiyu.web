@@ -29,7 +29,8 @@
                 <div class="max-w-[65ch] space-y-4 text-base/7 text-pretty text-neutral-600">
                     <p>
                         Read about <a href="https://joey.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Joey’s legal notice</a>,
-                        <a href="https://wombat.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Wombat’s legal notice</a>
+                        <a href="https://wombat.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Wombat’s legal notice</a>,
+                        <a href="https://croc.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Croc’s legal notice</a>
                         and <a href="https://wallaby.kimiyu.ch/privacy" class="font-medium text-honey-800 hover:text-honey-600">Wallaby’s privacy policy</a>
                         on their websites.
                     </p>

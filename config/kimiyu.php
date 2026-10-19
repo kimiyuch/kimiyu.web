@@ -48,6 +48,16 @@ return [
             'details' => 'Free · macOS, Apple Silicon',
             'color' => 'burrow',
         ],
+        [
+            'name' => 'Croc',
+            'url' => 'https://croc.kimiyu.ch',
+            'icon' => 'images/croc.webp',
+            'icon_alt' => 'The Croc app icon: a crocodile peeking over a film clapperboard',
+            'tagline' => 'Chews big videos down to size.',
+            'description' => 'A small, native video converter for your Mac. Drop in the videos from your phone, camera or screen recordings and get small, fast-starting MP4 and WebM files for your website.',
+            'details' => 'Free · macOS, Apple Silicon',
+            'color' => 'billabong',
+        ],
     ],
 
 ];

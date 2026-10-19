@@ -7,6 +7,7 @@
         'chip' => ['card' => 'from-chip-50 ring-chip-950/10 hover:ring-chip-950/20', 'name' => 'text-chip-950', 'accent' => 'text-chip-700'],
         'lilac' => ['card' => 'from-lilac-50 ring-lilac-950/10 hover:ring-lilac-950/20', 'name' => 'text-lilac-950', 'accent' => 'text-lilac-700'],
         'burrow' => ['card' => 'from-burrow-50 ring-burrow-950/10 hover:ring-burrow-950/20', 'name' => 'text-burrow-950', 'accent' => 'text-burrow-700'],
+        'billabong' => ['card' => 'from-billabong-50 ring-billabong-950/10 hover:ring-billabong-950/20', 'name' => 'text-billabong-950', 'accent' => 'text-billabong-700'],
     ][$app['color']];
     $host = parse_url($app['url'], PHP_URL_HOST);
 @endphp
