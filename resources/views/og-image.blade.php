@@ -17,8 +17,8 @@
         </p>
         <ul role="list" class="mt-14 flex gap-x-8">
             @foreach (config('kimiyu.apps') as $app)
-                <li class="flex items-center gap-x-3">
-                    <img src="{{ asset($app['icon']) }}" alt="" class="-m-2 size-20">
+                <li class="flex flex-col items-center gap-y-2">
+                    <img src="{{ asset($app['icon']) }}" alt="" class="-m-2 size-24">
                     <div class="font-display text-2xl font-semibold tracking-tight text-neutral-800">{{ $app['name'] }}</div>
                 </li>
             @endforeach

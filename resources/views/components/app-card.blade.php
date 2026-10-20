@@ -9,6 +9,7 @@
         'burrow' => ['card' => 'from-burrow-50 ring-burrow-950/10 hover:ring-burrow-950/20', 'name' => 'text-burrow-950', 'accent' => 'text-burrow-700'],
         'billabong' => ['card' => 'from-billabong-50 ring-billabong-950/10 hover:ring-billabong-950/20', 'name' => 'text-billabong-950', 'accent' => 'text-billabong-700'],
         'terrace' => ['card' => 'from-terrace-50 ring-terrace-950/10 hover:ring-terrace-950/20', 'name' => 'text-terrace-950', 'accent' => 'text-terrace-700'],
+        'ochre' => ['card' => 'from-ochre-50 ring-ochre-950/10 hover:ring-ochre-950/20', 'name' => 'text-ochre-950', 'accent' => 'text-ochre-700'],
     ][$app['color']];
     $host = parse_url($app['url'], PHP_URL_HOST);
 @endphp

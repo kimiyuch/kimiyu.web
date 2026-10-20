@@ -68,6 +68,16 @@ return [
             'details' => 'Free, in Swiss German · Phone and computer',
             'color' => 'terrace',
         ],
+        [
+            'name' => 'Wuff',
+            'url' => 'https://wuff.kimiyu.ch',
+            'icon' => 'images/wuff.webp',
+            'icon_alt' => 'The Wuff app icon: a dingo peeking over a card with the letters Aa',
+            'tagline' => 'Fetches your fonts for the web.',
+            'description' => 'Turns TTF and OTF fonts into small WOFF2 and WOFF files, right in your browser, and writes the @font-face CSS for them. Your fonts are never uploaded.',
+            'details' => 'Free, no sign-up · Browser',
+            'color' => 'ochre',
+        ],
     ],
 
 ];

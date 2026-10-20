@@ -31,6 +31,6 @@ class SeoTest extends TestCase
 
         $this->assertSame('https://schema.org', $data['@context']);
         $this->assertSame('kimiyu studio', $data['name']);
-        $this->assertSame(['Joey', 'Bilby', 'Wallaby', 'Wombat', 'Croc', 'Usverchauft'], array_column($data['owns'], 'name'));
+        $this->assertSame(['Joey', 'Bilby', 'Wallaby', 'Wombat', 'Croc', 'Usverchauft', 'Wuff'], array_column($data['owns'], 'name'));
     }
 }
