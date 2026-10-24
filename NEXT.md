@@ -24,6 +24,7 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Croc** | A small, native video converter for macOS: chews big MOV and MP4 files and animated GIFs down to small, fast-starting web videos (added to the page 2026-10-19, colour `billabong`) | https://croc.kimiyu.ch | `kimiyuch/croc.app` + `kimiyuch/croc.web` |
 | **Usverchauft** | Fan-to-fan ticket passing for FC Winterthur home games, no payments (formerly «Got a ticket?» at gotaticket.kimiyu.ch). No critter: its icon is the red ticket with a heart, so the hero now says *most* apps have an animal (added to the page 2026-10-19, colour `terrace`) | https://usverchauft.ch | `kimiyuch/gotaticket` |
 | **Wuff** | Turns TTF and OTF fonts into WOFF2 and WOFF in the browser and writes the `@font-face` CSS (added to the page 2026-10-20, colour `ochre`) | https://wuff.kimiyu.ch | `kimiyuch/wuff.web` |
+| **Stackr** | A small Trello-like board for small teams: projects, each with its own colour and board of lists and cards. No critter: its icon is the three-bar stack from its own site (added to the page 2026-10-24, colour `cobalt`) | https://stackr.kimiyu.ch | `marceli-to/stackr.web` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

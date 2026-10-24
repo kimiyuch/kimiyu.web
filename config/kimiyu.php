@@ -78,6 +78,16 @@ return [
             'details' => 'Free, no sign-up · Browser',
             'color' => 'ochre',
         ],
+        [
+            'name' => 'Stackr',
+            'url' => 'https://stackr.kimiyu.ch',
+            'icon' => 'images/stackr.webp',
+            'icon_alt' => 'The Stackr app icon: three offset bars, a stack of cards, on a dark tile',
+            'tagline' => 'A board for every project.',
+            'description' => 'A small board for small teams. Every project gets its own colour and its own board of lists and cards. Drag the cards along as the work moves, and keep everything about it on the card.',
+            'details' => 'Free, no ads · Browser',
+            'color' => 'cobalt',
+        ],
     ],
 
 ];

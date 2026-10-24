@@ -65,7 +65,7 @@
             <div class="mx-auto max-w-6xl px-6 lg:px-8">
                 <p class="text-base/7 font-semibold text-honey-600">The apps</p>
                 <h2 class="mt-2 max-w-[30ch] font-display text-4xl font-semibold tracking-tight text-balance text-honey-950 sm:text-5xl">
-                    Seven apps, seven small jobs
+                    Eight apps, eight small jobs
                 </h2>
                 <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
                     Each app has its own website, with everything you need to get started.
@@ -125,7 +125,7 @@
                         Questions, ideas or a bug to report?
                     </h2>
                     <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
-                        Write to us. For Joey, Wombat, Croc and Wuff, you can also open an issue on GitHub.
+                        Write to us. For Joey, Wombat, Croc, Wuff and Stackr, you can also open an issue on GitHub.
                     </p>
                 </div>
                 <div class="flex flex-col justify-end gap-4 lg:items-end">
