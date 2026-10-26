@@ -45,7 +45,7 @@
                     Small, calm apps, each with a critter inside
                 </h1>
                 <p class="mx-auto mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600 sm:text-xl/8">
-                    kimiyu is a little studio making apps that do one thing well and then get out of your way. Most of them have an Australian animal on their icon.
+                    kimiyu is a little studio run by <a href="https://marceli.to" class="font-medium text-honey-800 hover:text-honey-600">Marcel Stadelmann</a>, a developer in Zurich. It makes apps that do one thing well and then get out of your way. Most of them have an Australian animal on their icon.
                 </p>
                 <div class="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
                     <a href="#apps" class="inline-flex items-center gap-x-2 rounded-full bg-honey-600 py-3 pr-4 pl-5 text-base/6 font-semibold text-white shadow-sm hover:bg-honey-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-honey-600">
