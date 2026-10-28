@@ -25,6 +25,7 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Usverchauft** | Fan-to-fan ticket passing for FC Winterthur home games, no payments (formerly «Got a ticket?» at gotaticket.kimiyu.ch). No critter: its icon is the red ticket with a heart, so the hero now says *most* apps have an animal (added to the page 2026-10-19, colour `terrace`) | https://usverchauft.ch | `kimiyuch/gotaticket` |
 | **Wuff** | Turns TTF and OTF fonts into WOFF2 and WOFF in the browser and writes the `@font-face` CSS (added to the page 2026-10-20, colour `ochre`) | https://wuff.kimiyu.ch | `kimiyuch/wuff.web` |
 | **Stackr** | A small Trello-like board for small teams: projects, each with its own colour and board of lists and cards. No critter: its icon is the three-bar stack from its own site (added to the page 2026-10-24, colour `cobalt`) | https://stackr.kimiyu.ch | `marceli-to/stackr.web` |
+| **Roxy** | A feedback widget for websites: clients point at what needs changing, and a coding agent reads it over MCP, fixes it and resolves it. Mascot: a galah (added to the page 2026-10-28, colour `roost`) | https://roxy.kimiyu.ch | `kimiyuch/roxy.web` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

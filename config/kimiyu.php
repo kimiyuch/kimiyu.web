@@ -88,6 +88,16 @@ return [
             'details' => 'Free, no ads · Browser',
             'color' => 'cobalt',
         ],
+        [
+            'name' => 'Roxy',
+            'url' => 'https://roxy.kimiyu.ch',
+            'icon' => 'images/roxy.webp',
+            'icon_alt' => 'The Roxy app icon: a galah peeking over a browser window with a feedback pin',
+            'tagline' => 'Tell Roxy. Claude fixes it.',
+            'description' => 'A feedback button for the websites you build. Your client points at what’s wrong, Roxy adds a screenshot and everything about the page, and your coding agent reads it over MCP, fixes it and marks it done.',
+            'details' => 'Early access · Any website',
+            'color' => 'roost',
+        ],
     ],
 
 ];

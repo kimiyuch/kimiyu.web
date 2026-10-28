@@ -11,6 +11,7 @@
         'terrace' => ['card' => 'from-terrace-50 ring-terrace-950/10 hover:ring-terrace-950/20', 'name' => 'text-terrace-950', 'accent' => 'text-terrace-700'],
         'ochre' => ['card' => 'from-ochre-50 ring-ochre-950/10 hover:ring-ochre-950/20', 'name' => 'text-ochre-950', 'accent' => 'text-ochre-700'],
         'cobalt' => ['card' => 'from-cobalt-50 ring-cobalt-950/10 hover:ring-cobalt-950/20', 'name' => 'text-cobalt-950', 'accent' => 'text-cobalt-700'],
+        'roost' => ['card' => 'from-roost-50 ring-roost-950/10 hover:ring-roost-950/20', 'name' => 'text-roost-950', 'accent' => 'text-roost-700'],
     ][$app['color']];
     $host = parse_url($app['url'], PHP_URL_HOST);
 @endphp

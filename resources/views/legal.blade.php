@@ -33,6 +33,7 @@
                         <a href="https://croc.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Croc’s legal notice</a>,
                         <a href="https://wuff.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Wuff’s legal notice</a>,
                         <a href="https://stackr.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Stackr’s legal notice</a>,
+                        <a href="https://roxy.kimiyu.ch/legal" class="font-medium text-honey-800 hover:text-honey-600">Roxy’s legal notice</a>,
                         <a href="https://usverchauft.ch/datenschutz" class="font-medium text-honey-800 hover:text-honey-600">Usverchauft’s privacy policy</a>
                         and <a href="https://wallaby.kimiyu.ch/privacy" class="font-medium text-honey-800 hover:text-honey-600">Wallaby’s privacy policy</a>
                         on their websites.
