@@ -1,6 +1,6 @@
 # kimiyu.ch: the studio landing page (to build)
 
-Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-11 (artwork decided: the bear; Amor not shown; Laravel app set up; page built; live on kimiyu.ch).
+Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-28 (Roxy added as the ninth app, colour `roost`; earlier: the bear, Amor not shown, live on kimiyu.ch since 2026-10-11).
 
 ## Start here
 
