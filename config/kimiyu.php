@@ -98,6 +98,16 @@ return [
             'details' => 'Early access · Any website',
             'color' => 'roost',
         ],
+        [
+            'name' => 'Hoot',
+            'url' => 'https://hoot.kimiyu.ch',
+            'icon' => 'images/hoot.webp',
+            'icon_alt' => 'The Hoot app icon: an owl perched on a film clapperboard',
+            'tagline' => 'Keeps watch for new episodes.',
+            'description' => 'Follow the shows and movies you watch, and Hoot tells you when every new episode and release comes out, on every service, in your timezone. Subscribe in your calendar, and see what the people you follow are watching.',
+            'details' => 'Free, no ads · Phone and computer',
+            'color' => 'dusk',
+        ],
     ],
 
 ];

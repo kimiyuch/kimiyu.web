@@ -1,6 +1,6 @@
 # kimiyu.ch: the studio landing page (to build)
 
-Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-10-28 (Roxy added as the ninth app, colour `roost`; earlier: the bear, Amor not shown, live on kimiyu.ch since 2026-10-11).
+Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-11-06 (Hoot added as the tenth app, colour `dusk`; before that Roxy as the ninth, colour `roost`; earlier: the bear, Amor not shown, live on kimiyu.ch since 2026-10-11).
 
 ## Start here
 
@@ -26,6 +26,7 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Wuff** | Turns TTF and OTF fonts into WOFF2 and WOFF in the browser and writes the `@font-face` CSS (added to the page 2026-10-20, colour `ochre`) | https://wuff.kimiyu.ch | `kimiyuch/wuff.web` |
 | **Stackr** | A small Trello-like board for small teams: projects, each with its own colour and board of lists and cards. No critter: its icon is the three-bar stack from its own site (added to the page 2026-10-24, colour `cobalt`) | https://stackr.kimiyu.ch | `marceli-to/stackr.web` |
 | **Roxy** | A feedback widget for websites: clients point at what needs changing, and a coding agent reads it over MCP, fixes it and resolves it. Mascot: a galah (added to the page 2026-10-28, colour `roost`) | https://roxy.kimiyu.ch | `kimiyuch/roxy.web` |
+| **Hoot** | Follow shows and movies and get every new episode and release, on every service, in your timezone; with a calendar feed, profiles and a thread of what the people you follow watch. Mascot: an owl on a film clapperboard (added to the page 2026-11-06, colour `dusk`, the plum of its icon) | https://hoot.kimiyu.ch | `kimiyuch/hoot.web` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

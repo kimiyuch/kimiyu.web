@@ -49,4 +49,9 @@
     --color-roost-50: #f2f7fc;
     --color-roost-700: #40618c;
     --color-roost-950: #1e2a3b;
+
+    /* Hoot: the plum of its late-night icon. */
+    --color-dusk-50: #f9f5f9;
+    --color-dusk-700: #69426c;
+    --color-dusk-950: #2a1631;
 }

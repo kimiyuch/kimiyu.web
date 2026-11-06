@@ -15,11 +15,11 @@
         <p class="mt-8 max-w-[22ch] font-display text-6xl font-semibold tracking-tight text-balance text-honey-950">
             Small, calm apps, each with a critter inside.
         </p>
-        <ul role="list" class="mt-14 flex gap-x-8">
+        <ul role="list" class="mt-14 flex gap-x-5">
             @foreach (config('kimiyu.apps') as $app)
                 <li class="flex flex-col items-center gap-y-2">
-                    <img src="{{ asset($app['icon']) }}" alt="" class="-m-2 size-24">
-                    <div class="font-display text-2xl font-semibold tracking-tight text-neutral-800">{{ $app['name'] }}</div>
+                    <img src="{{ asset($app['icon']) }}" alt="" class="-m-2 size-[5.5rem]">
+                    <div class="font-display text-xl font-semibold tracking-tight text-neutral-800">{{ $app['name'] }}</div>
                 </li>
             @endforeach
         </ul>
