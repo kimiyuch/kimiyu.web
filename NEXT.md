@@ -1,6 +1,6 @@
 # kimiyu.ch: the studio landing page (to build)
 
-Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-11-06 (Hoot added as the tenth app, colour `dusk`; before that Roxy as the ninth, colour `roost`; earlier: the bear, Amor not shown, live on kimiyu.ch since 2026-10-11).
+Written 2026-10-11 at the end of the Wallaby session, for whoever opens this folder next. Last updated 2026-11-22 (écho added as the eleventh app, colour `ultramarine`, and a new Games section below the apps with Tin Fox, colour `kit`, and Heerschar, colour `meadow`, from `config('kimiyu.games')`; before that Hoot as the tenth app, colour `dusk`; before that Roxy as the ninth, colour `roost`; earlier: the bear, Amor not shown, live on kimiyu.ch since 2026-10-11).
 
 ## Start here
 
@@ -27,6 +27,9 @@ Turn kimiyu.ch into the landing page of the kimiyu studio: a single page that sh
 | **Stackr** | A small Trello-like board for small teams: projects, each with its own colour and board of lists and cards. No critter: its icon is the three-bar stack from its own site (added to the page 2026-10-24, colour `cobalt`) | https://stackr.kimiyu.ch | `marceli-to/stackr.web` |
 | **Roxy** | A feedback widget for websites: clients point at what needs changing, and a coding agent reads it over MCP, fixes it and resolves it. Mascot: a galah (added to the page 2026-10-28, colour `roost`) | https://roxy.kimiyu.ch | `kimiyuch/roxy.web` |
 | **Hoot** | Follow shows and movies and get every new episode and release, on every service, in your timezone; with a calendar feed, profiles and a thread of what the people you follow watch. Mascot: an owl on a film clapperboard (added to the page 2026-11-06, colour `dusk`, the plum of its icon) | https://hoot.kimiyu.ch | `kimiyuch/hoot.web` |
+| **écho** | Private search for the Mac: mail, chats, files, meetings, notes and reminders in one encrypted index on the Mac. Always written lowercase with the accent. No public download yet ("Coming soon"). No critter: its icon is the black é on an off-white tile (added to the page 2026-11-22, colour `ultramarine`, the accent of its site) | https://echo.kimiyu.ch | `marceli-to/echo.app` (private) + `marceli-to/echo.web` |
+| **Tin Fox** (game) | A toy-box spy shooter in the browser: a stealth mission, 2-player split-screen versus and a training range. Icon: the fox head from its favicon on a cream tile, made for this page (added 2026-11-22 in the Games section, colour `kit`) | https://tinfox.kimiyu.ch | `marceli-to/tin-wolf` |
+| **Heerschar** (game, working title, still in the works) | A 3D battle game in the browser: lead a small army as its hero, build the company between battles. It has no icon of its own; the one here is its red wax seal with crossed swords (`WaxSeal.vue`) on a meadow-green tile, made for this page (added 2026-11-22 in the Games section, colour `meadow`) | https://heerschar.kimiyu.ch | `marceli-to/heerschar` |
 
 Each product is an Australian animal, drawn as a cute flat animal peeking over the app's object on a rounded gradient tile.
 

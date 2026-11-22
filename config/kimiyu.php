@@ -108,6 +108,40 @@ return [
             'details' => 'Free, no ads · Phone and computer',
             'color' => 'dusk',
         ],
+        [
+            'name' => 'écho',
+            'url' => 'https://echo.kimiyu.ch',
+            'icon' => 'images/echo.webp',
+            'icon_alt' => 'The écho app icon: a black letter é on an off-white tile',
+            'tagline' => 'Everything you’ve written, found again.',
+            'description' => 'Private search for your Mac. écho reads your mail, chats, files, meetings, notes and reminders into one encrypted index that never leaves your Mac. Type a few words and find the message you only half remember.',
+            'details' => 'Coming soon · macOS 26, Apple Silicon',
+            'color' => 'ultramarine',
+        ],
+    ],
+
+    // The games, below the apps. Same card, same colours.
+    'games' => [
+        [
+            'name' => 'Tin Fox',
+            'url' => 'https://tinfox.kimiyu.ch',
+            'icon' => 'images/tinfox.webp',
+            'icon_alt' => 'The Tin Fox icon: an orange fox head on a cream tile',
+            'tagline' => 'A toy-box spy shooter for the couch.',
+            'description' => 'Sneak through a snowed-in depot past the guards, take on a friend in 2-player split-screen versus, or race the clock on the training range. A first-person shooter in the spirit of the late-90s console classics.',
+            'details' => 'Free · Browser, keyboard and mouse or gamepad',
+            'color' => 'kit',
+        ],
+        [
+            'name' => 'Heerschar',
+            'url' => 'https://heerschar.kimiyu.ch',
+            'icon' => 'images/heerschar.webp',
+            'icon_alt' => 'The Heerschar icon: a red wax seal with crossed swords on a green tile',
+            'tagline' => 'Lead a small army as its hero.',
+            'description' => 'A 3D battle game. Pick a hero and fight in real time among your companions; between battles, choose who fights, where they stand and what they carry, across three regions that each end in a boss.',
+            'details' => 'Free, still in the works · Browser, keyboard and mouse',
+            'color' => 'meadow',
+        ],
     ],
 
 ];

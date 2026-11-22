@@ -54,4 +54,19 @@
     --color-dusk-50: #f9f5f9;
     --color-dusk-700: #69426c;
     --color-dusk-950: #2a1631;
+
+    /* écho: the ultramarine accent of its website. */
+    --color-ultramarine-50: #f3f5ff;
+    --color-ultramarine-700: #1f3bff;
+    --color-ultramarine-950: #0b1150;
+
+    /* Tin Fox: the fox's orange, with the navy of its outline. */
+    --color-kit-50: #fff6ee;
+    --color-kit-700: #b4461a;
+    --color-kit-950: #1f2a44;
+
+    /* Heerschar: the green of the Greenmarch meadow. */
+    --color-meadow-50: #f3f9ea;
+    --color-meadow-700: #3c7322;
+    --color-meadow-950: #1d3510;
 }

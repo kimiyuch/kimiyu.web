@@ -13,6 +13,9 @@
         'cobalt' => ['card' => 'from-cobalt-50 ring-cobalt-950/10 hover:ring-cobalt-950/20', 'name' => 'text-cobalt-950', 'accent' => 'text-cobalt-700'],
         'roost' => ['card' => 'from-roost-50 ring-roost-950/10 hover:ring-roost-950/20', 'name' => 'text-roost-950', 'accent' => 'text-roost-700'],
         'dusk' => ['card' => 'from-dusk-50 ring-dusk-950/10 hover:ring-dusk-950/20', 'name' => 'text-dusk-950', 'accent' => 'text-dusk-700'],
+        'ultramarine' => ['card' => 'from-ultramarine-50 ring-ultramarine-950/10 hover:ring-ultramarine-950/20', 'name' => 'text-ultramarine-950', 'accent' => 'text-ultramarine-700'],
+        'kit' => ['card' => 'from-kit-50 ring-kit-950/10 hover:ring-kit-950/20', 'name' => 'text-kit-950', 'accent' => 'text-kit-700'],
+        'meadow' => ['card' => 'from-meadow-50 ring-meadow-950/10 hover:ring-meadow-950/20', 'name' => 'text-meadow-950', 'accent' => 'text-meadow-700'],
     ][$app['color']];
     $host = parse_url($app['url'], PHP_URL_HOST);
 @endphp
